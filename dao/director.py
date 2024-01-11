@@ -28,3 +28,4 @@ class DirectorDAO:
 
         self.session.add(director)
         self.session.commit()
+

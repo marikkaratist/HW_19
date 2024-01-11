@@ -1,51 +1,61 @@
-GET http://127.0.0.1:10001/movies/
+GET http://127.0.0.1:5000/movies/
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTgxOTN9.lQ6EQ3E1Vj_4T-nBAGvCeZ_lgSWokt7MQ9bF8ZcMzKs
 
 ###
 
-GET http://127.0.0.1:10001/movies/?director_id=12
+GET http://127.0.0.1:5000/movies/?director_id=12
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-GET http://127.0.0.1:10001/movies/?genre_id=4
+GET http://127.0.0.1:5000/movies/?genre_id=4
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-GET http://127.0.0.1:10001/movies/?year=2010
+GET http://127.0.0.1:5000/movies/?year=2010
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-GET http://127.0.0.1:10001/directors/
+GET http://127.0.0.1:5000/directors/
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-GET http://127.0.0.1:10001/directors/1
+GET http://127.0.0.1:5000/directors/1
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-GET http://127.0.0.1:10001/genres/
+GET http://127.0.0.1:5000/genres/
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-GET http://127.0.0.1:10001/genres/1
+GET http://127.0.0.1:5000/genres/1
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-GET http://127.0.0.1:10001/movies/21
+GET http://127.0.0.1:5000/movies/21
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 ###
 
-POST http://127.0.0.1:10001/movies/
+POST http://127.0.0.1:5000/movies/
 Accept: application/json
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 {
   "title": "Гарри Поттер мой кумир!",
@@ -57,9 +67,10 @@ Content-Type: application/json
 
 ###
 
-PUT http://127.0.0.1:10001/movies/21
+PUT http://127.0.0.1:5000/movies/21
 Accept: application/json
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 {
   "id": 21,
@@ -74,9 +85,10 @@ Content-Type: application/json
 
 ###
 
-PATCH http://127.0.0.1:10001/movies/3
+PATCH http://127.0.0.1:5000/movies/3
 Accept: application/json
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc
 
 {
   "id": 21,
@@ -91,4 +103,5 @@ Content-Type: application/json
 
 ###
 
-DELETE http://127.0.0.1:10001/movies/21
+DELETE http://127.0.0.1:5000/movies/21
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MDQ5OTIxMzl9.2m7zsbx-XJZz6fn9KvvDjk_1amnjyNsUSCQB88pnxoc

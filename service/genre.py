@@ -20,3 +20,4 @@ class GenreService:
 
     def delete(self, rid):
         self.dao.delete(rid)
+
